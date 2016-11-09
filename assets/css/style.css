@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	font-size: 18px
+	line-height: 1.5
+	color: #ededed; /*replace with correct background img*/
+}
+
+h1 {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+li a {
+	display: block;
+	width: 60px;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+#aboutMe {
+	margin-top: 200px;
+}
