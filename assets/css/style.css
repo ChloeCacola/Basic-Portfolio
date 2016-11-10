@@ -1,40 +1,106 @@
 * {
 	box-sizing: border-box;
-	text-align: center;
 }
 
 body {
-	font-size: 18px
-	line-height: 1.5
-	color: #ededed; /*replace with correct background img*/
+
+	background: #ededed;
+}
+
+header {
+	position: fixed;
+	margin: 0; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0px;
+	text-decoration: none;
+	background: white;
+	border-bottom: solid 2px #777777;
 }
 
 h1 {
 	display: inline-block;
 	float: left;
-	margin-left: 20px;
-	margin-top: 30px;
+	padding: 20px;
+	background-color: #4aaaa5;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 125px;
+	font-size: 25px;
+
 }
 
 nav ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	margin-top: 10px;
+	margin-right: 160px;
+	padding: 10px;
 	display: inline-block;
-	vertical-align: top;
 	float: right;
+
 }
 
-li a {
-	display: block;
-	width: 60px;
+li {
+
+	float: left;
+	padding: 6px;
+	font-family: arial;
+	text-decoration: none;
+	font-size: 13px;
 }
 
-.active {
-	background-color: #4CAF50;
-	color: white;
+a {
+	text-decoration: none;
+	color: #777777;
 }
+
+
 
 #aboutMe {
-	margin-top: 200px;
+
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 120px;
+	margin-top: 90px;
+	margin-right: 10px;
+	width: 475px;
+	text-align: left;
+	background: #fff;
+	border: solid 1px #777777;
+	float: left;
+}
+
+p {
+	font-family: Arial;
+	color: #777777;
+	line-height: 2;
+	font-size: 13px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 25px;
+}
+
+h3 {
+	color: #4aaaa5;
+}
+
+
+
+#connect {
+	float: left;
+	width: 200px;
+	padding: 5px;
+	padding-right: 20px;
+	margin: 40px;
+	margin-top: 90px;
+	margin-left: 25px;
+	background: #ffffff;
+	text-align: center;
+	border: solid 1px #777777;
 }
