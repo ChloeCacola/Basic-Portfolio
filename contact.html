@@ -2,34 +2,62 @@
 <html>
 <head>
 	<title>Chloe Corrigan</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+
+	
 </head>
 <body>
+
+<header>
 	<h1>Chloe Corrigan</h1>
 
 	<nav>
 		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html" class="active">Contact</a></li>
+			<li><a href="index.html">About &nbsp; <font color="#dddddd">|</font></a></li>
+			<li><a href="portfolio.html">Portfolio &nbsp; <font color="#dddddd">|</font></a></li>
+			<li><a class="active" href="contact.html">Contact </a></li>
 		</ul>
 	</nav>
-	
-<div id="contact">
-	
-	<h2>About Me</h2>
+</header>
 
-	<div id=lineBreak></div>
 
-<!-- 	form for contact goes in this div -->
+	<section id="contact">
+		
+		<h2>Contact</h2>
 
-</div>
+		<div id="lineBreak"></div>
+
+
+		<form id="contactForm" action="#" method="POST" enctype="multipart/form-data">
+			<div class="row">
+				<label for="name">Name</label><br/>
+				<input id="name" class="input" name="name" type="text" value="" size="64" /><br/>
+			</div>
+			<div class="row">
+				<label for="email">Email</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="64" /><br/>
+			</div>
+			<div class="row">
+				<label for="message">Message</label><br/>
+				<textarea id="message" class="input" name="message" rows="10" cols="58"></textarea><br/>
+			</div>
+				<input id="submitButton" type="submit" value="Submit"/>
+		</form>						
+	</section>
+
 
 <div id="connect">
 	<h3>Connect with Me</h3>
-	<a href=""><img src=""></a>
-	<a href=""><img src=""></a>
-	<a href=""><img src=""></a>
+
+	<div id="lineBreak2"></div>
+		<div id="iconPosition">
+			<a href="https://github.com/ChloeCacola"><img class="socialMedia" src="assets/images/github.png" alt="Github ChloeCacola"></a>
+
+			<a href="https://www.linkedin.com/in/chloe-corrigan-743a064a
+		"><img class="socialMedia" src="assets/images/LinkedIn.png" alt="LinkedIn Chloe Corrigan"></a>
+
+			<a href="http://stackexchange.com/users/9481143/chloe-corrigan"><img  id="stack" src="assets/images/Stack Overflow.png" alt="Stack Overflow Chloe Corrigan"></a>
+		</div>
 </div>
 
 <footer></footer>

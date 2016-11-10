@@ -16,7 +16,7 @@ header {
 	padding: 0px;
 	text-decoration: none;
 	background: white;
-	border-bottom: solid 2px #777777;
+	border-bottom: solid 2px #cccccc;
 }
 
 h1 {
@@ -54,23 +54,26 @@ li {
 
 a {
 	text-decoration: none;
-	color: #777777;
+	color: #bbbbbb;
 }
 
-
+.active {
+	font-weight: bold;
+}
 
 #aboutMe {
 
 	padding-top: 10px;
-	padding-left: 15px;
+	padding-left: 20px;
 	padding-right: 15px;
 	margin-left: 120px;
 	margin-top: 90px;
 	margin-right: 10px;
+	margin-bottom: 40px;
 	width: 475px;
 	text-align: left;
 	background: #fff;
-	border: solid 1px #777777;
+	border: solid 1px #dddddd;
 	float: left;
 }
 
@@ -79,6 +82,7 @@ p {
 	color: #777777;
 	line-height: 2;
 	font-size: 13px;
+	margin-top: 35px;
 }
 
 h2 {
@@ -88,6 +92,7 @@ h2 {
 
 h3 {
 	color: #4aaaa5;
+	margin-bottom: 15px;
 }
 
 
@@ -95,6 +100,7 @@ h3 {
 #connect {
 	float: left;
 	width: 200px;
+	height: 155px;
 	padding: 5px;
 	padding-right: 20px;
 	margin: 40px;
@@ -102,5 +108,119 @@ h3 {
 	margin-left: 25px;
 	background: #ffffff;
 	text-align: center;
-	border: solid 1px #777777;
+	border: solid 1px #dddddd;
 }
+
+#lineBreak {
+	outline: solid #dddddd 1px;
+}
+
+#lineBreak2 {
+	outline: solid #dddddd 1px;
+	margin-left: 20px;
+	margin-right: 4px;
+	margin-bottom: 30px;
+}
+
+#kiki {
+	margin-right: 15px;
+	margin-top: 8px;
+	float:left;
+	vertical-align: text-top;
+}
+
+.socialMedia {
+	width: 50px;
+	height: 50px;
+}
+
+#stack {
+	width: 45px;
+	height: 45px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+
+#iconPosition {
+	margin-left: 15px;
+}
+
+#portfolio {
+
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	margin-left: 120px;
+	margin-top: 90px;
+	margin-right: 10px;
+	width: 475px;
+	text-align: left;
+	background: #fff;
+	border: solid 1px #dddddd;
+	float: left;
+	clear: both;
+}
+
+#contact {
+
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	margin-left: 120px;
+	margin-top: 90px;
+	margin-right: 10px;
+	width: 475px;
+	text-align: left;
+	background: #fff;
+	border: solid 1px #dddddd;
+	float: left;
+	clear: both;
+}
+
+#contactForm {
+	padding-top: 20px;
+}
+
+label {
+	font-family: arial;
+	font-size: 13px;
+	color: #777777;
+}
+
+#message {
+	margin-top: 5px;
+}
+
+#email {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#name {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#submitButton {
+	background: #4aaaa5;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #ffffff;
+}
+/*.footer {
+	position: absolute; bottom:0;left:0;
+	margin: 0px; 
+	width: 100%;
+	padding: 0px;
+	background: #cccccc;
+	border-top: solid 4px #4aaaa5;
+}
+
+#copyright {
+	font-size: 10px;
+}*/
