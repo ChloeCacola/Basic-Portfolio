@@ -127,6 +127,7 @@ h3 {
 	margin-top: 8px;
 	float:left;
 	vertical-align: text-top;
+	position: relative;
 }
 
 .socialMedia {
@@ -160,6 +161,65 @@ h3 {
 	border: solid 1px #dddddd;
 	float: left;
 	clear: both;
+}
+
+#cool {
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin-top: 150px;
+	padding: 0px;
+	background: #4aaaa5;
+}
+
+
+#another1 {	
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin-top: 150px;
+	margin-left: 215px;
+	padding: 0px;
+	background: #4aaaa5;
+}
+
+#andanother {	
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin-top: 360px;
+	padding: 0px;
+	background: #4aaaa5;
+}
+
+#djkhaled {	
+	font-size: 17px;
+	font-family: "Times New Roman";
+	color: #fff;
+	line-height: 0.3;
+	position: absolute;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin-top: 360px;
+	margin-left: 215px;
+	padding: 0px;
+	background: #4aaaa5;
 }
 
 #contact {
